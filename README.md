@@ -1,4 +1,4 @@
-# Extentions
+# Chrome Extention
 
 # Basic structure of extention apps:
 * **manifest.json**
@@ -27,12 +27,12 @@ _______________________________________________________
 }
 ```
 
-  
 
-# How to create and run an extention locally: 
+
+# How to create and run an extention locally:
   1. Create **manifest.json** file with all configurations, more info about manifest can be found [here](https://developer.chrome.com/extensions/manifest)
   2. Create all other files from **extention basic structure** such as: popup.html, popup.js, icon.png, others..
-  3. Load this extention into your browser: 
+  3. Load this extention into your browser:
     a) Visit **chrome://extensions** in your browser (or open up the Chrome menu by clicking the icon to the far right of the Omnibox:  The menu's icon is three horizontal bars. and select **Extensions** under the **Tools** menu to get to the same place).
     b) Ensure that the **Developer mode** checkbox in the top right-hand corner is checked.
     c) Click Load **unpacked extension…** to pop up a file-selection dialog.
@@ -42,3 +42,9 @@ _______________________________________________________
 
 
 * For more info about chrome extentions, please visit [google chrome developer page](https://developer.chrome.com/extensions/getstarted)
+
+
+# Mozilla Firefox Extention
+* The idea is basically the same. We can use the same structure as for **chrome extention**. And to load extention locally, we should visit "about:debugging" in mozilla firefox browser and load manifest.json file from our extention. All others file mozilla will load automatically. Please, visit [mozilla toolbar button tutorial](https://developer.mozilla.org/en-US/Add-ons/WebExtensions/Add_a_button_to_the_toolbar) for more info.
+* Also, check other resources which might help you: [All about Web Extensions](https://developer.mozilla.org/en-US/Add-ons/WebExtensions), [The Essentials of an Extension](https://developer.mozilla.org/en-US/Add-ons/Overlay_Extensions/XUL_School/The_Essentials_of_an_Extension).
+
